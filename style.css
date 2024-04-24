@@ -1,0 +1,6 @@
+html{font-family: candara;}
+
+.dias-semana{color: blue; font-size: 20px;} /*color, fuente Lu a Vi. horario.html*/
+.dia-sabado{color: darkcyan; font-size: 20px;} /*color, fuente Sab. horario.html*/
+.horarios-semana{color: blue;} /*color hora Lu a Vi. horario.html*/
+.horario-sabado{color: darkcyan;} /*color hora Sab. horario.html*/
