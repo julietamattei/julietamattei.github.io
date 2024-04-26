@@ -1,0 +1,14 @@
+html{font-family: candara;}
+
+.dias-semana{color: blue; font-size: 20px;} /*color, fuente Lu a Vi. horario.html*/
+.dia-sabado{color: darkcyan; font-size: 20px;} /*color, fuente Sab. horario.html*/
+.horarios-semana{color: blue;} /*color hora Lu a Vi. horario.html*/
+.horario-sabado{color: darkcyan;} /*color hora Sab. horario.html*/
+
+.lista{list-style: none;}
+
+
+.formulario{border-width: 2px; border-color: blue; border-style: solid;
+padding: 10px; width: fit-content;}
+
+.pie{background-color: lightblue; width: 100%; height: 25px; text-align: center;}
