@@ -1,0 +1,41 @@
+html{font-family: candara;}
+
+.dias-semana{color: blue; font-size: 20px;} /*color, fuente Lu a Vi. horario.html*/
+.dia-sabado{color: darkcyan; font-size: 20px;} /*color, fuente Sab. horario.html*/
+.horarios-semana{color: blue;} /*color hora Lu a Vi. horario.html*/
+.horario-sabado{color: darkcyan;} /*color hora Sab. horario.html*/
+
+a:hover{color:darkblue}
+.lista{font-weight: bold;
+    font-size: large;
+    background-color: lightblue;
+    height: 160px;
+    padding-top: 10px;
+    padding-left: 70px;
+    list-style: none;} /*orden lista navegador*/
+
+.margen{margin-left: 10px;} /*margen títulos*/
+
+.encabezados{text-align: center;}
+
+.carousel{margin: 25px;}
+
+.articulo-index{margin: 10px;} /*orden texto con imagen index*/
+
+.card{padding: 10px;}
+
+.formulario{padding: 10px; width: fit-content;} /*formulario de contacto*/
+
+.pie{background-color: lightblue; width: 100%; height: 140px; text-align: center; padding-top: 10px;} /*especificaciones de pie de página*/
+
+@media only screen and (min-width:800px){
+    .section-index{display: flex;}
+    .lista{display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: lightblue;
+    height: 45px;
+    padding-top: 10px;
+    padding-left: 70px;}
+    .pie{background-color: lightblue; width: 100%; height: 100px;}
+}
